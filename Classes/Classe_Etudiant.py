@@ -84,4 +84,5 @@ class Etudiant:
         """
         return (f"Numéro de l'étudiant : {self._numero_etudiant}\n"
                 f"Nom de l'étudiant : {self._nom_etudiant}\n"
-                f"Âge de l'étudiant : {self.age()} ans\n")
+                f"Âge de l'étudiant : {self.age()} ans\n"
+                f"Programme : {self.programme_etudiant}\n")
