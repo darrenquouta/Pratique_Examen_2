@@ -52,16 +52,6 @@
     <string>Nom de l'étudiant</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEditNomEtud">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>190</y>
-     <width>271</width>
-     <height>41</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QTextBrowser" name="textBrowserEtud">
    <property name="geometry">
     <rect>
@@ -69,16 +59,6 @@
      <y>450</y>
      <width>551</width>
      <height>331</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEditNumEtud">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>70</y>
-     <width>271</width>
-     <height>41</height>
     </rect>
    </property>
   </widget>
@@ -127,6 +107,92 @@
      <height>41</height>
     </rect>
    </property>
+  </widget>
+  <widget class="QLabel" name="labelErreurNumero">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>271</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelErreurNom">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>271</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditNumEtud">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditNomEtud">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxProgramme">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Sciences de la nature</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sciences, lettres et art</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Informatique</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Génie mécanique</string>
+    </property>
+   </item>
   </widget>
   <widget class="QPushButton" name="pushButtonAjouter">
    <property name="geometry">
@@ -179,72 +245,6 @@
    <property name="text">
     <string>Sauvegarder</string>
    </property>
-  </widget>
-  <widget class="QLabel" name="labelErreurNumero">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>120</y>
-     <width>271</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>6</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QLabel" name="labelErreurNom">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>240</y>
-     <width>271</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>6</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="comboBoxProgramme">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>320</y>
-     <width>261</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <item>
-    <property name="text">
-     <string>Sciences de la nature</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Sciences, lettres et art</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Informatique</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Génie mécanique</string>
-    </property>
-   </item>
   </widget>
  </widget>
  <resources/>

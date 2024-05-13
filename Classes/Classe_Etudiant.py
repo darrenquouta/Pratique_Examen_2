@@ -5,18 +5,23 @@ class Etudiant:
     liste_etudiants = []
 
     def __init__(self, p_numero_etudiant: str = "", p_nom_etudiant: str = "", p_programme_etudiant: str = "",
-                 p_date_naissance: datetime = ""):
+                 p_date_naissance: datetime = "", p_liste_cours_inscrit: list = None):
         """
         Constructeur de la classe Etudiant
         :param p_numero_etudiant: Le numéro de l'étudiant
         :param p_nom_etudiant: Le nom de l'étudiant
         :param p_programme_etudiant: Le programme de l'étudiant
         :param p_date_naissance: La date de naissance de l'étudiant
+        :param p_liste_cours_inscrit: La liste des cours inscrit de l'étudiant
         """
         self._numero_etudiant = p_numero_etudiant
         self._nom_etudiant = p_nom_etudiant
         self.programme_etudiant = p_programme_etudiant
         self.date_naissance = p_date_naissance
+        if p_liste_cours_inscrit is None:
+            self.liste_cours_inscrit = []
+        else:
+            self.liste_cours_inscrit = p_liste_cours_inscrit
 
     @property
     def numero_etudiant(self):
