@@ -1,0 +1,6 @@
+Numéro de l'étudiant : 00000002
+Nom de l'étudiant : Qu
+Âge de l'étudiant : 18 ans
+Numéro de l'étudiant : 00000004
+Nom de l'étudiant : Sébastien
+Âge de l'étudiant : 18 ans
