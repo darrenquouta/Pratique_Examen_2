@@ -1,6 +1,7 @@
 import Qt_PY.Page_Principale
 from Dialog.Dialogue_Etudiant import page_etudiant
 from Dialog.Dialogue_Cours import page_cours
+from Dialog.Dialogue_Local import page_local
 
 import sys
 from PyQt5 import QtWidgets
@@ -20,6 +21,12 @@ class pageAccueil(QtWidgets.QMainWindow, Qt_PY.Page_Principale.Ui_MainWindow):
     @pyqtSlot()
     def on_pushButtonGererCours_clicked(self):
         page_dialogue = page_cours()
+        page_dialogue.show()
+        page_dialogue.exec_()
+
+    @pyqtSlot()
+    def on_pushButtonGererLocaux_clicked(self):
+        page_dialogue = page_local()
         page_dialogue.show()
         page_dialogue.exec_()
 
