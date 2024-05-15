@@ -2,7 +2,6 @@ import Qt_PY.Page_Principale
 from Dialog.Dialogue_Etudiant import page_etudiant
 from Dialog.Dialogue_Cours import page_cours
 from Dialog.Dialogue_Local import page_local
-
 import sys
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import pyqtSlot
